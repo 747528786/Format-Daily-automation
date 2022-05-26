@@ -12,7 +12,7 @@ for i in range(len(list)):
 def main():
     start = time.time()
 
-    list_info = change_addresss(addresslist=list1, key="72e3c2c7e2b0380faef57124c3c86118")
+    list_info = change_addresss(addresslist=list1, key="高德秘钥")
 
     geodistance(list=list_info).to_excel(excel_writer="距离.xlsx", index=False)
 
