@@ -4,10 +4,10 @@ import pymysql
 
 def data_from_sql(first_date, last_date):
     conn = pymysql.connect(
-        host='rm-uf6lxxf35108k7uq19o.mysql.rds.aliyuncs.com',
-        user='danego_ro',
-        password='D@none20181024',
-        db='danego',
+        host='host',
+        user='user',
+        password='password',
+        db='db',
         charset='utf8'
     )
     sql = 'SELECT *,sum( goods_num ) as "数量" FROM \
