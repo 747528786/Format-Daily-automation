@@ -14,7 +14,7 @@ print(list1)
 def ocr_license(imageUrlList):
     for i in range(0, len(imageUrlList)):
         try:
-            cred = credential.Credential("AKIDKRLyLRGo56qJVQ4RXN3WidIgndCUVGkx", "yf5dvwf8LGuIPFo67rKWS8XfW6OP8bnh")
+            cred = credential.Credential("访问秘钥", "访问秘钥")
             httpProfile = HttpProfile()
             httpProfile.endpoint = "ocr.tencentcloudapi.com"
 
