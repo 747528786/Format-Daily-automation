@@ -88,9 +88,9 @@ def store_to_erp_solution(df_store_to_erp):
 
 def get_conn():
     conn = pymysql.connect(
-        host='rm-uf6lxxf35108k7uq19o.mysql.rds.aliyuncs.com',
-        user='danego_ro',
-        password='D@none20181024',
+        host='xxx',
+        user='user',
+        password='password',
         db='danego',
         charset='utf8'
     )
